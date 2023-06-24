@@ -16,7 +16,7 @@ def bölme (sayi1,sayi2):
     try:
         sonuc = sayi1 /sayi2
         return sonuc                                                    #Bölme fonksiyonu.
-    except ZeroDivisionError:
+    except ZeroDivisionError:                                           #expect ZeroDivisionError sıfıra bölündüğünde programın hata ile kapanmasını önlemek için yazılmıştır.
         print("\n Sifira bölmek mümkün değil")
 
 while True:
